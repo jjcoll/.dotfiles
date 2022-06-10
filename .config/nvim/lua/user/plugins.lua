@@ -82,6 +82,9 @@ return packer.startup(function(use)
   }
   use "p00f/nvim-ts-rainbow"
 
+  -- Git Signs
+  use "lewis6991/gitsigns.nvim"
+
   -- Autoclosing () [] {} " ""
   use "windwp/nvim-autopairs" -- Auto closing pairs, integrates with cmp and Treesitter
 
