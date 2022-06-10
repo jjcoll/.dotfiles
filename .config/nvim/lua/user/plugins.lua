@@ -92,6 +92,10 @@ return packer.startup(function(use)
   use "numToStr/Comment.nvim" -- Easily comment stuf
   use 'JoosepAlviste/nvim-ts-context-commentstring' -- Context aware commenting for Treesitter (in jsx will know html or js etc.)
 
+  -- Tree explorer 
+  use "kyazdani42/nvim-web-devicons"
+  use "kyazdani42/nvim-tree.lua"
+
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if PACKER_BOOTSTRAP then
