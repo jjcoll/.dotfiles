@@ -6,5 +6,4 @@ require 'user.transparent'
 require 'user.cmp'
 require 'user.telescope'
 require 'user.treesitter'
-
-
+require 'user.autopairs'
