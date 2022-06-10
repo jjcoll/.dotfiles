@@ -83,7 +83,11 @@ return packer.startup(function(use)
   use "p00f/nvim-ts-rainbow"
 
   -- Autoclosing () [] {} " ""
-  use "windwp/nvim-autopairs"
+  use "windwp/nvim-autopairs" -- Auto closing pairs, integrates with cmp and Treesitter
+
+  -- Commenting 
+  use "numToStr/Comment.nvim" -- Easily comment stuf
+  use 'JoosepAlviste/nvim-ts-context-commentstring' -- Context aware commenting for Treesitter (in jsx will know html or js etc.)
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
