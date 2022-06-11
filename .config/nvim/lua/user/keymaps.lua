@@ -41,6 +41,8 @@ keymap("n", "<S-h>", ":bprevious<CR>", opts)
 -- Insert --
 -- Press jk fast to enter
 keymap("i", "jk", "<ESC>", opts)
+-- Delete word ctrl+backspace
+keymap("i", "<C-BS>", "<C-W>", opts)
 
 -- Visual --
 -- Stay in indent mode
