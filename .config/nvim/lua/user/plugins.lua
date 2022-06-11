@@ -98,7 +98,7 @@ return packer.startup(function(use)
 
   -- Bufferline
   use "akinsho/bufferline.nvim"
-  use "moll/vim-bbye"
+  use "moll/vim-bbye" -- fixes closing buffers and exiting nvim
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
