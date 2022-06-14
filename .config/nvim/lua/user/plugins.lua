@@ -51,7 +51,9 @@ return packer.startup(function(use)
   use "phanviet/vim-monokai-pro" -- monokai pro
   use "navarasu/onedark.nvim" -- onedark
   use "folke/tokyonight.nvim"
-  use "savq/melange"
+  use "savq/melange" 
+  use "EdenEast/nightfox.nvim"
+  use "sainnhe/sonokai"
   
   -- Transparency
   use "xiyaowong/nvim-transparent"
@@ -101,6 +103,15 @@ return packer.startup(function(use)
   -- Bufferline
   use "akinsho/bufferline.nvim"
   use "moll/vim-bbye" -- fixes closing buffers and exiting nvim
+
+  -- Markdown previewer
+  -- install without yarn or npm
+  use({
+      "iamcco/markdown-preview.nvim",
+      run = function() vim.fn["mkdp#util#install"]() end,
+  })
+
+  use({ "iamcco/markdown-preview.nvim", run = "cd app && npm install", setup = function() vim.g.mkdp_filetypes = { "markdown" } end, ft = { "markdown" }, })
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins

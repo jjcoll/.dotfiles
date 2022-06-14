@@ -129,10 +129,20 @@ _G.packer_plugins = {
     path = "/home/eliot/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
     url = "https://github.com/lewis6991/gitsigns.nvim"
   },
+  ["markdown-preview.nvim"] = {
+    loaded = true,
+    path = "/home/eliot/.local/share/nvim/site/pack/packer/start/markdown-preview.nvim",
+    url = "https://github.com/iamcco/markdown-preview.nvim"
+  },
   melange = {
     loaded = true,
     path = "/home/eliot/.local/share/nvim/site/pack/packer/start/melange",
     url = "https://github.com/savq/melange"
+  },
+  ["nightfox.nvim"] = {
+    loaded = true,
+    path = "/home/eliot/.local/share/nvim/site/pack/packer/start/nightfox.nvim",
+    url = "https://github.com/EdenEast/nightfox.nvim"
   },
   ["nvim-autopairs"] = {
     loaded = true,
@@ -203,6 +213,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/eliot/.local/share/nvim/site/pack/packer/start/popup.nvim",
     url = "https://github.com/nvim-lua/popup.nvim"
+  },
+  sonokai = {
+    loaded = true,
+    path = "/home/eliot/.local/share/nvim/site/pack/packer/start/sonokai",
+    url = "https://github.com/sainnhe/sonokai"
   },
   ["telescope-media-files.nvim"] = {
     loaded = true,

@@ -25,7 +25,8 @@ require'lspconfig'.tsserver.setup{}
 -- Lua 
 require'lspconfig'.sumneko_lua.setup{}
 
-
-
 -- LSP installer 
 require("nvim-lsp-installer").setup{}
+
+-- Markdown
+require'lspconfig'.marksman.setup{}
