@@ -65,7 +65,7 @@ cmp.setup {
 
     -- Accept currently selected item. If none selected, `select` first item.
     -- Set `select` to `false` to only confirm explicitly selected items.
-    ["<CR>"] = cmp.mapping.confirm { select = true }, -- confirm selection with enter key
+    ["<CR>"] = cmp.mapping.confirm { select = false }, -- confirm selection with enter key
 
     -- SUPERTAB
     ["<Tab>"] = cmp.mapping(function(fallback)

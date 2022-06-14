@@ -51,6 +51,7 @@ return packer.startup(function(use)
   use "phanviet/vim-monokai-pro" -- monokai pro
   use "navarasu/onedark.nvim" -- onedark
   use "folke/tokyonight.nvim"
+  use "savq/melange"
   
   -- Transparency
   use "xiyaowong/nvim-transparent"

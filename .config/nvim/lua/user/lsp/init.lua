@@ -15,3 +15,17 @@ require'lspconfig'.cssls.setup{
   capabilities = capabilities,
 }
 -- require'lspconfig'.cssmodules_ls.setup{}
+
+-- JS -- VStudio Codes eslint language server
+require'lspconfig'.eslint.setup{}
+
+-- Typescript
+require'lspconfig'.tsserver.setup{}
+
+-- Lua 
+require'lspconfig'.sumneko_lua.setup{}
+
+
+
+-- LSP installer 
+require("nvim-lsp-installer").setup{}

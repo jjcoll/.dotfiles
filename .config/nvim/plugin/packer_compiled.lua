@@ -129,6 +129,11 @@ _G.packer_plugins = {
     path = "/home/eliot/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
     url = "https://github.com/lewis6991/gitsigns.nvim"
   },
+  melange = {
+    loaded = true,
+    path = "/home/eliot/.local/share/nvim/site/pack/packer/start/melange",
+    url = "https://github.com/savq/melange"
+  },
   ["nvim-autopairs"] = {
     loaded = true,
     path = "/home/eliot/.local/share/nvim/site/pack/packer/start/nvim-autopairs",
