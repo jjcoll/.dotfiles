@@ -96,7 +96,8 @@ font:
 #   Normal (roman) font face
   normal: 
     # family: DejaVuSansMono
-    family: FiraCode SemiBold
+    family: IBM Plex Mono 
+    style: SemiBold
 
   bold:
     family: FiraCode
@@ -105,13 +106,13 @@ font:
   italic:
     # family: DejaVuSerif Italic
     # family: FiraCode
-    family: Hack Nerd Font
+    family: IBM Plex Mono
     style: Bold Italic
 
   bold_italic: 
     
     # family: DejavuSerifCondensed BoldItalic
-    family: FiraCode
+    family: IBM Plex Mono
     style: Bold Italic
 
 #   Point size
@@ -123,10 +124,10 @@ font:
    y: 0
 
 # Colors (Tomorrow Night)
-# colors:
+colors:
   # Default colors
-  #primary:
-    #   background: '#222222'
+  primary:
+    background: '#2A2520'
     # foreground: '#c5c8c6'
 
     # Bright and dim foreground colors
