@@ -13,4 +13,5 @@ require 'user.nvim-tree'
 require 'user.bufferline'
 require "user.lsp"
 require "user.wrap"
+require "user.indent-line"
 

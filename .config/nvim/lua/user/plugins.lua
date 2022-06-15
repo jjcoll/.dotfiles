@@ -15,6 +15,7 @@ if fn.empty(fn.glob(install_path)) > 0 then
   vim.cmd [[packadd packer.nvim]]
 end
 
+
 -- Autocommand that reloads neovim whenever you save the plugins.lua file
 vim.cmd [[
   augroup packer_user_config
@@ -45,16 +46,16 @@ return packer.startup(function(use)
   use "wbthomason/packer.nvim" -- Have packer manage itself
   use "nvim-lua/popup.nvim" -- An implementation of the Popup API from vim in Neovim
   use "nvim-lua/plenary.nvim" -- Useful lua functions used by lots of plugins
-  
+
   -- Colorschemes
   use "lunarvim/colorschemes" -- A bunch of colorschemes you can try out
   use "phanviet/vim-monokai-pro" -- monokai pro
   use "navarasu/onedark.nvim" -- onedark
   use "folke/tokyonight.nvim"
-  use "savq/melange" 
+  use "savq/melange"
   use "EdenEast/nightfox.nvim"
   use "sainnhe/sonokai"
-  
+
   -- Transparency
   use "xiyaowong/nvim-transparent"
 
@@ -117,6 +118,10 @@ return packer.startup(function(use)
       "iamcco/markdown-preview.nvim",
       run = function() vim.fn["mkdp#util#install"]() end,
   })
+
+  -- Clearly show indents
+  use "Yggdroot/indentLine" -- no other config
+
 
   -- use({ "iamcco/markdown-preview.nvim", run = "cd app && npm install", setup = function() vim.g.mkdp_filetypes = { "markdown" } end, ft = { "markdown" }, })
 

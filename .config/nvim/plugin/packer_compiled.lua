@@ -129,6 +129,11 @@ _G.packer_plugins = {
     path = "/home/eliot/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
     url = "https://github.com/lewis6991/gitsigns.nvim"
   },
+  indentLine = {
+    loaded = true,
+    path = "/home/eliot/.local/share/nvim/site/pack/packer/start/indentLine",
+    url = "https://github.com/Yggdroot/indentLine"
+  },
   ["markdown-preview.nvim"] = {
     loaded = true,
     path = "/home/eliot/.local/share/nvim/site/pack/packer/start/markdown-preview.nvim",
