@@ -1,7 +1,7 @@
 local configs = require("nvim-treesitter.configs")
 configs.setup {
-  ensure_installed = {maintained},
-  sync_install = false, 
+  -- ensure_installed = {maintained},
+  sync_install = false,
   ignore_install = { "" }, -- List of parsers to ignore installing
   autopairs = {
     enable = true
@@ -20,5 +20,13 @@ configs.setup {
     max_file_lines = nil, -- Do not enable for files with more than n lines, int
     -- colors = {}, -- table of hex strings
     -- termcolors = {} -- table of colour name strings
+    colors = {
+      "#FFD700",
+      "#DA70D6",
+      "#87CEFA",
+      "#FA8072",
+      "#7CFC00",
+      "#FF8C00",
+    }
   }
 }

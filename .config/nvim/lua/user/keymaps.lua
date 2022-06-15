@@ -25,6 +25,7 @@ keymap("n", "<C-j>", "<C-w>j", opts)
 keymap("n", "<C-k>", "<C-w>k", opts)
 keymap("n", "<C-l>", "<C-w>l", opts)
 keymap("n", "<leader>x", ":Bdelete<cr>", opts)
+keymap("n", "<A-z>", ":call ToggleWrap()<cr>", opts) -- toggleWrap
 
 -- Nvimtree
 keymap("n", "<leader>e", ":NvimTreeToggle<cr>", opts) -- <cr> carrige return, press enter key
