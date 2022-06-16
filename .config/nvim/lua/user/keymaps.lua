@@ -27,6 +27,8 @@ keymap("n", "<C-l>", "<C-w>l", opts)
 keymap("n", "<leader>x", ":Bdelete<cr>", opts)
 keymap("n", "<A-z>", ":call ToggleWrap()<cr>", opts) -- toggleWrap
 
+-- Format file
+keymap("n", "<leader>f", ":lua vim.lsp.buf.formatting_sync()<CR>", opts)
 -- Nvimtree
 keymap("n", "<leader>e", ":NvimTreeToggle<cr>", opts) -- <cr> carrige return, press enter key
 
@@ -71,7 +73,7 @@ keymap("t", "<C-k>", "<C-\\><C-N><C-w>k", term_opts)
 keymap("t", "<C-l>", "<C-\\><C-N><C-w>l", term_opts)
 
 -- TELESCOPE --
-keymap("n", "<leader>f", "<cmd>Telescope find_files<cr>", opts)
+keymap("n", "<leader>t", "<cmd>Telescope find_files<cr>", opts)
 --keymap("n", "<leader>f", "<cmd>lua require'telescope.builtin'.find_files(require('telescope.themes').get_dropdown({ previewer = false }))<cr>", opts)
 keymap("n", "<c-t>", "<cmd>Telescope live_grep<cr>", opts)
 
