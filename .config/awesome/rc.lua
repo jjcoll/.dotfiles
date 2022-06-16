@@ -322,6 +322,8 @@ globalkeys = gears.table.join(
     awful.key({ modkey }, "b", function() 
 	    awful.util.spawn("google-chrome-stable") end,
 	    {description = "launch google chrome", group = "Start Apps"}),
+    
+    
 
     -- awful.key({ modkey }, "x",
     --           function ()
@@ -535,7 +537,8 @@ beautiful.useless_gap = 5
 -- Autostart Apps
 -- Wallpaper
 awful.spawn.with_shell("nitrogen --restore")
-awful.spawn.with_shell("feh --bg-scale /home/eliot/wallpapers/blue-abstract-wallpaper.jpg")
+-- awful.spawn.with_shell("feh --bg-scale /home/eliot/wallpapers/blue-abstract-wallpaper.jpg")
+awful.spawn.with_shell("feh --bg-scale /home/eliot/wallpapers/arch-melagne.png")
 -- Transparency
 awful.spawn.with_shell("picom")
 -- Polylbar
