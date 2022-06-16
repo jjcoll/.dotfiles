@@ -1,5 +1,12 @@
 local configs = require("nvim-treesitter.configs")
 configs.setup {
+  -- Match tag names with color 
+  matchup = {
+      enable = true,              -- mandatory, false will disable the whole extension
+      -- disable = { "c", "ruby" },  -- optional, list of language that will be disabled
+      -- [options]
+  },
+
   -- ensure_installed = {maintained},
   sync_install = false,
   ignore_install = { "" }, -- List of parsers to ignore installing

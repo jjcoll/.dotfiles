@@ -249,6 +249,11 @@ _G.packer_plugins = {
     path = "/home/eliot/.local/share/nvim/site/pack/packer/start/vim-bbye",
     url = "https://github.com/moll/vim-bbye"
   },
+  ["vim-matchup"] = {
+    loaded = true,
+    path = "/home/eliot/.local/share/nvim/site/pack/packer/start/vim-matchup",
+    url = "https://github.com/andymass/vim-matchup"
+  },
   ["vim-monokai-pro"] = {
     loaded = true,
     path = "/home/eliot/.local/share/nvim/site/pack/packer/start/vim-monokai-pro",

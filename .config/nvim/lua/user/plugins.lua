@@ -96,6 +96,7 @@ return packer.startup(function(use)
     run = ":TSUpdate",
   }
   use "p00f/nvim-ts-rainbow"
+  use "andymass/vim-matchup"
 
   -- Git Signs
   use "lewis6991/gitsigns.nvim"
