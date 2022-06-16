@@ -129,10 +129,10 @@ _G.packer_plugins = {
     path = "/home/eliot/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
     url = "https://github.com/lewis6991/gitsigns.nvim"
   },
-  indentLine = {
+  ["indent-blankline.nvim"] = {
     loaded = true,
-    path = "/home/eliot/.local/share/nvim/site/pack/packer/start/indentLine",
-    url = "https://github.com/Yggdroot/indentLine"
+    path = "/home/eliot/.local/share/nvim/site/pack/packer/start/indent-blankline.nvim",
+    url = "https://github.com/lukas-reineke/indent-blankline.nvim"
   },
   ["markdown-preview.nvim"] = {
     loaded = true,
@@ -248,6 +248,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/eliot/.local/share/nvim/site/pack/packer/start/vim-monokai-pro",
     url = "https://github.com/phanviet/vim-monokai-pro"
+  },
+  ["vim-surround"] = {
+    loaded = true,
+    path = "/home/eliot/.local/share/nvim/site/pack/packer/start/vim-surround",
+    url = "https://github.com/tpope/vim-surround"
   }
 }
 

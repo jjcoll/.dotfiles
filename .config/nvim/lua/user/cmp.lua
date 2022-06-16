@@ -130,7 +130,7 @@ cmp.setup {
   window = {
     documentation = cmp.config.window.bordered(),
     -- documentation = cmp.config.window.bordered({
-     --"╭", "─", "╮", "│", "╯", "─", "╰", "│" 
+     --"╭", "─", "╮", "│", "╯", "─", "╰", "│"
    },
   experimental = {
     ghost_text = false, -- writes infront of you (as comment)

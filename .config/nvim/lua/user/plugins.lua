@@ -83,6 +83,7 @@ return packer.startup(function(use)
         "neovim/nvim-lspconfig",
     }
 }
+
   -- Telescope
   use "nvim-telescope/telescope.nvim"
   use 'nvim-telescope/telescope-media-files.nvim'
@@ -120,10 +121,11 @@ return packer.startup(function(use)
   })
 
   -- Clearly show indents
-  use "Yggdroot/indentLine" -- no other config
+  -- use "Yggdroot/indentLine" -- no other config
+  use "lukas-reineke/indent-blankline.nvim"
 
-
-  -- use({ "iamcco/markdown-preview.nvim", run = "cd app && npm install", setup = function() vim.g.mkdp_filetypes = { "markdown" } end, ft = { "markdown" }, })
+  -- Surround (rename <> surround with () all made easier)
+  use "tpope/vim-surround"
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
