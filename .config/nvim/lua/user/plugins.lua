@@ -82,7 +82,9 @@ return packer.startup(function(use)
     {
         "neovim/nvim-lspconfig",
     }
-}
+  }
+  -- Null-ls (formatting, linting etc.)
+  use "jose-elias-alvarez/null-ls.nvim"
 
   -- Telescope
   use "nvim-telescope/telescope.nvim"
@@ -133,3 +135,5 @@ return packer.startup(function(use)
     require("packer").sync()
   end
 end)
+
+
