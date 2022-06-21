@@ -6,5 +6,6 @@ require("user.lsp.settings.sumneko_lua")
 require("user.lsp.settings.html")
 require("user.lsp.settings.css")
 require("user.lsp.settings.js")
+require("user.lsp.settings.python")
 
 
