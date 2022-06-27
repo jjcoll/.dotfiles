@@ -55,7 +55,8 @@ return packer.startup(function(use)
   use "savq/melange"
   use "EdenEast/nightfox.nvim"
   use "sainnhe/sonokai"
-
+  use "bluz71/vim-moonfly-colors"
+  use "jacoborus/tender.vim"
   -- Transparency
   use "xiyaowong/nvim-transparent"
 
